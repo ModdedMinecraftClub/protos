@@ -14,11 +14,6 @@ message GenericCommand {
   repeated string args = 4;
 }
 
-message GenericServerCommand {
-  string serverId = 1;
-  GenericCommand command = 2;
-}
-
 message GenericCommandResult {
   string serverId = 1;
   string discordChannelId = 2;
@@ -28,6 +23,7 @@ message GenericCommandResult {
 }
 
 message PromoteMemberCommand {
+  option deprecated = true;
   string serverId = 1;
   string username = 2;
 }
