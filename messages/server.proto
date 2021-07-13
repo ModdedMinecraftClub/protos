@@ -5,7 +5,7 @@ package polychat;
 option java_package = "club.moddedminecraft.polychat.core.messagelibrary";
 option java_outer_classname = "ServerProtos";
 
-option csharp_namespace = "Mmcc.Bot.Protos";
+option csharp_namespace = "Mmcc.Bot.Polychat";
 
 message ServerInfo {
   string serverId = 1;
